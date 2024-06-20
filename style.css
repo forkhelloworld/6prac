@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header div {
+  padding: 20px;
+  margin-top: 6%;
+  width: 300px;
+  height: 350px;
+}
+
+header {
+  background-image: url("https://i.ibb.co/S7d19bB/showcase.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 1rem;
+}
+
+.text {
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.container h2 {
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.container p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.fa-solid,
+.fa-brands {
+  font-size: 3em;
+}
+
+.fa-laptop-code {
+  font-size: 10em;
+  font-weight: 900;
+}
+
+.about {
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.about i,
+.about div {
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.flex h2 {
+  line-height: 0;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.flex p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.black {
+  height: 45vh;
+}
+
+.white {
+  height: 47vh;
+  background-color: white;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #333;
+}
