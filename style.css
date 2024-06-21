@@ -24,8 +24,8 @@ header {
 }
 
 .logo {
-  width: 180px;
-  height: 180px;
+  width: 13vw;
+  height: 13vw;
 }
 
 h1 {
@@ -40,14 +40,12 @@ h1 {
 
 .container {
   display: flex;
-  gap: 20px;
 }
 
 .wrapper {
-  max-width: 960px;
-  margin: auto;
+  box-sizing: border-box;
   overflow: hidden;
-  padding: 4rem 1rem;
+  padding: 4rem 10rem;
 }
 
 .container h2 {
@@ -80,6 +78,7 @@ h1 {
   color: #333;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .about i,
