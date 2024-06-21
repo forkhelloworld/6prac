@@ -5,7 +5,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header div {
+.head_wrapper {
   padding: 20px;
   margin-top: 6%;
   width: 300px;
@@ -16,9 +16,7 @@ header {
   background-image: url("https://i.ibb.co/S7d19bB/showcase.jpg");
   background-size: cover;
   background-position: center;
-
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,10 +41,6 @@ h1 {
 .container {
   display: flex;
   gap: 20px;
-}
-
-section {
-  max-width: 100%;
 }
 
 .wrapper {
